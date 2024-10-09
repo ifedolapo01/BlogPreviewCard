@@ -1,0 +1,48 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    font-size: 15px;
+    min-height: 100vh;
+    background-color: var(--yellow);
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    background-color: var(--white);
+    border: 20px solid var(--white);
+    border-radius: 10px;
+    width: clamp(1rem, 25%, 20rem);
+}
+
+img {
+    width: 100%;
+}
+
+img.avatar {
+    width: 1rem;
+}
+
+.pic-name{
+    display: flex;
+    width: clamp(1rem, 30%, 20rem);
+    justify-content: space-between;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
