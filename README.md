@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/Final%20Screenshot.png)
+![](./assets/images/Final%20Screenshot%20On%20Hover.png)
 
 <br>
 
