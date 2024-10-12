@@ -22,7 +22,7 @@ body {
     background-color: var(--white);
     border: 20px solid var(--white);
     border-radius: 10px;
-    width: clamp(1rem, 25%, 20rem);
+    width: clamp(10rem, 20%, 30rem);
 }
 
 img {
@@ -33,10 +33,44 @@ img.avatar {
     width: 1rem;
 }
 
+.content {
+    margin: 1rem 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .pic-name{
     display: flex;
-    width: clamp(1rem, 30%, 20rem);
+    width: clamp(4.3rem, 50%, 6.3rem);
     justify-content: space-between;
+}
+
+h1{
+    font-size: clamp(0.8rem, 1.5vw, 3rem);
+}
+
+p{
+    font-size: clamp(0.58rem, 1.1vw, 2rem);
+}
+
+p.learning {
+    background-color: var(--yellow);
+    color: var(--gray-950);
+    width: clamp(1rem, 25%, 20rem);
+    text-align: center;
+    padding: 0.3rem 0;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+p.description {
+    color: var(--gray-500);
+    margin-bottom: 0.6rem;
+}
+
+p.name {
+    font-size: clamp(0.6rem, 1.1vw, 2rem);
 }
 
 .attribution { 
@@ -44,5 +78,6 @@ img.avatar {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
 }
